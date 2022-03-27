@@ -6,7 +6,6 @@
 Для деплоя на [Heroku](https://www.heroku.com/) в репозитории есть Procfile.
 
 ## Переменные окружения:  
-* `API_YANDEX_URL` url адрес сервера api яндекс практикума
 * `PRAKTIKUM_TOKEN` токен аутентификации Яндекс.Практикума
 * `TELEGRAM_TOKEN` телеграмм токен созданного вами бота
 * `TELEGRAM_CHAT_ID` id чата с вами
