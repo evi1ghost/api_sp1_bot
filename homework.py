@@ -47,7 +47,7 @@ def get_homework_statuses(current_timestamp):
             params=params
         )
     except requests.RequestException:
-        raise Warning('Ошибка сервера')
+        raise Warning('Ошибка сервера.')
     return homework_statuses.json()
 
 
